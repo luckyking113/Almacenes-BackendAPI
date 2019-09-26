@@ -1,0 +1,7 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-07-10 00:52:43 --> Severity: error --> Exception: Too few arguments to function Api::getallproducts(), 2 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 3 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 79
+ERROR - 2019-07-10 11:39:27 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-07-10 11:40:48 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-07-10 11:59:09 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-07-10 11:59:51 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737

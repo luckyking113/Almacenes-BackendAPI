@@ -1,0 +1,22 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-09-26 02:50:31 --> 404 Page Not Found: Api/searchMows
+ERROR - 2017-09-26 06:15:17 --> Severity: Notice --> Undefined property: Api::$api_model /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 149
+ERROR - 2017-09-26 06:15:17 --> Severity: error --> Exception: Call to a member function searchMows() on null /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 149
+ERROR - 2017-09-26 06:17:14 --> Query error: Column 'user_id' in where clause is ambiguous - Invalid query: select a.*, avg(b.rating_marks) as user_avgmarks, c.stripe_token from tb_user a left join user_ratings  b on a.user_id = b.rating_receiver left join tb_user_cards c on a.user_id = c.user_id where user_id != 2 group by a.user_id
+ERROR - 2017-09-26 06:56:39 --> Severity: Notice --> Undefined index: user_id /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 145
+ERROR - 2017-09-26 06:56:39 --> Severity: Notice --> Undefined index: latitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 146
+ERROR - 2017-09-26 06:56:39 --> Severity: Notice --> Undefined index: longitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 147
+ERROR - 2017-09-26 06:56:39 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by a.user_id' at line 1 - Invalid query: select a.*, avg(b.rating_marks) as user_avgmarks, c.stripe_token from tb_user a left join user_ratings  b on a.user_id = b.rating_receiver left join tb_user_cards c on a.user_id = c.user_id where a.user_id !=  group by a.user_id
+ERROR - 2017-09-26 06:58:17 --> Severity: Notice --> Undefined index: user_id /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 145
+ERROR - 2017-09-26 06:58:17 --> Severity: Notice --> Undefined index: latitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 146
+ERROR - 2017-09-26 06:58:17 --> Severity: Notice --> Undefined index: longitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 147
+ERROR - 2017-09-26 06:58:17 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by a.user_id' at line 1 - Invalid query: select a.*, avg(b.rating_marks) as user_avgmarks, c.stripe_token from tb_user a left join user_ratings  b on a.user_id = b.rating_receiver left join tb_user_cards c on a.user_id = c.user_id where a.user_id !=  group by a.user_id
+ERROR - 2017-09-26 07:11:40 --> Severity: Notice --> Undefined index: user_id /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 145
+ERROR - 2017-09-26 07:11:40 --> Severity: Notice --> Undefined index: latitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 146
+ERROR - 2017-09-26 07:11:40 --> Severity: Notice --> Undefined index: longitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 147
+ERROR - 2017-09-26 07:11:40 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by a.user_id' at line 1 - Invalid query: select a.*, avg(b.rating_marks) as user_avgmarks, c.stripe_token from tb_user a left join user_ratings  b on a.user_id = b.rating_receiver left join tb_user_cards c on a.user_id = c.user_id where a.user_id !=  group by a.user_id
+ERROR - 2017-09-26 07:14:20 --> Severity: Notice --> Undefined index: user_id /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 145
+ERROR - 2017-09-26 07:14:20 --> Severity: Notice --> Undefined index: latitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 146
+ERROR - 2017-09-26 07:14:20 --> Severity: Notice --> Undefined index: longitude /home/joemow38/public_html/JoeMowApp/application/controllers/Api.php 147
+ERROR - 2017-09-26 07:14:20 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by a.user_id' at line 1 - Invalid query: select a.*, avg(b.rating_marks) as user_avgmarks, c.stripe_token from tb_user a left join user_ratings  b on a.user_id = b.rating_receiver left join tb_user_cards c on a.user_id = c.user_id where a.user_id !=  group by a.user_id

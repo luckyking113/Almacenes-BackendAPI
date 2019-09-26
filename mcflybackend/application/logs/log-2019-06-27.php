@@ -1,0 +1,6 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-06-27 07:31:10 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Api_model.php 66
+ERROR - 2019-06-27 07:31:10 --> Severity: Warning --> getimagesize(https://mcflydelivery.com/public/uploads/category/thumbnail/15522514451675811788.png): failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Api_model.php 66
+ERROR - 2019-06-27 07:31:22 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Api_model.php 66
+ERROR - 2019-06-27 07:31:22 --> Severity: Warning --> getimagesize(https://mcflydelivery.com/public/uploads/category/thumbnail/15522514451675811788.png): failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Api_model.php 66

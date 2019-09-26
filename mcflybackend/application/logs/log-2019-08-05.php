@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-08-05 17:47:31 --> Severity: error --> Exception: Too few arguments to function Api::getallproducts(), 2 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 3 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 79
+ERROR - 2019-08-05 17:48:07 --> Severity: error --> Exception: Too few arguments to function Api::getallproducts(), 2 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 3 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 79
+ERROR - 2019-08-05 17:52:02 --> Severity: error --> Exception: Too few arguments to function Api::getallproducts(), 2 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 3 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 79
+ERROR - 2019-08-05 18:44:12 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-08-05 18:45:39 --> Severity: Notice --> Undefined index: product_images /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 237
+ERROR - 2019-08-05 18:45:39 --> Severity: Notice --> Undefined offset: 1 /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 507

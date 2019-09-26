@@ -1,0 +1,47 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-03-22 00:58:58 --> Severity: Notice --> Undefined index: drivername /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 548
+ERROR - 2019-03-22 00:59:07 --> Severity: Notice --> Undefined index: drivername /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 548
+ERROR - 2019-03-22 01:39:50 --> Severity: Warning --> sizeof(): Parameter must be an array or an object that implements Countable /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 698
+ERROR - 2019-03-22 01:40:32 --> Severity: 4096 --> Object of class stdClass could not be converted to string /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 716
+ERROR - 2019-03-22 01:46:44 --> Severity: error --> Exception: Call to undefined method Api::explode() /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 717
+ERROR - 2019-03-22 01:47:49 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 719
+ERROR - 2019-03-22 01:48:20 --> Severity: Notice --> Trying to get property 'time_1' of non-object /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 721
+ERROR - 2019-03-22 01:48:20 --> Severity: Notice --> Trying to get property 'time_2' of non-object /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 722
+ERROR - 2019-03-22 01:48:20 --> Severity: Notice --> Trying to get property 'time_1' of non-object /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 721
+ERROR - 2019-03-22 01:48:20 --> Severity: Notice --> Trying to get property 'time_2' of non-object /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 722
+ERROR - 2019-03-22 03:50:49 --> Severity: error --> Exception: syntax error, unexpected ':', expecting ')' /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 03:51:18 --> Severity: error --> Exception: syntax error, unexpected ':', expecting ')' /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 03:51:36 --> Severity: error --> Exception: syntax error, unexpected ':', expecting ')' /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 03:52:12 --> Severity: error --> Exception: syntax error, unexpected ':', expecting ')' /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 03:52:44 --> Severity: error --> Exception: syntax error, unexpected ':', expecting ')' /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 03:53:04 --> Severity: error --> Exception: syntax error, unexpected ':', expecting ')' /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 01:59:13 --> Severity: error --> Exception: Call to a member function format() on int /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 724
+ERROR - 2019-03-22 02:47:20 --> Severity: Notice --> Undefined variable: warehouseid /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 514
+ERROR - 2019-03-22 03:47:29 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 07:08:53 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND a.`status`='1'  ORDER BY a.`order_time`' at line 7 - Invalid query: SELECT a.*, 
+b.id AS customerid, b.`first_name`AS customerfirstname, b.`last_name` AS customerlastname, b.`phone` AS customerphone,
+c.`address_name` AS shipping_addressname, c.`address_location` AS shipping_addresslocation, c.`address_lat` AS shipping_addresslat, c.`address_lng` AS shipping_addresslng
+FROM orders a 
+INNER JOIN customers b ON a.customer_id=b.`id`
+LEFT JOIN tb_shippingaddress c ON a.shipping_addressid=c.address_id
+WHERE a.`warehouse_id` = AND a.`status`='1'  ORDER BY a.`order_time`
+ERROR - 2019-03-22 07:08:57 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 07:10:15 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 07:12:17 --> Severity: Notice --> Undefined index: productid /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 596
+ERROR - 2019-03-22 07:12:29 --> Severity: Notice --> Undefined index: productid /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 596
+ERROR - 2019-03-22 08:26:48 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 12:08:26 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 12:12:06 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 12:14:50 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 12:15:04 --> Severity: error --> Exception: Too few arguments to function Api::getalltips(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 643
+ERROR - 2019-03-22 21:20:42 --> Severity: Notice --> Undefined index: zipecode /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 47
+ERROR - 2019-03-22 21:20:42 --> Severity: Notice --> Undefined index: customerid /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 48
+ERROR - 2019-03-22 21:20:42 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY a.`id` DESC' at line 1 - Invalid query: SELECT a.*, b.`address_name` AS shippingaddress_name, b.`address_location` AS shipping_addresslocation, b.`address_zipcode` AS shipping_addresszipcode, b.`address_lat` AS shipping_addresslat, b.`address_lng` AS shipping_addresslng, b.`address_imageurl` AS shipping_addressimageurl FROM orders a LEFT JOIN tb_shippingaddress b ON a.shipping_addressid=b.`address_id` WHERE a.`customer_id` =  ORDER BY a.`id` DESC
+ERROR - 2019-03-22 22:46:35 --> Severity: error --> Exception: Too few arguments to function Api::getOrder_detail(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 559
+ERROR - 2019-03-22 22:46:38 --> Severity: error --> Exception: Too few arguments to function Api::getOrder_detail(), 0 passed in /home/secuamuz/mcflydelivery.com/mcflybackend/system/core/CodeIgniter.php on line 514 and exactly 1 expected /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 559
+ERROR - 2019-03-22 22:59:08 --> Severity: Notice --> Undefined index: productid /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 599
+ERROR - 2019-03-22 22:59:28 --> Severity: Notice --> Undefined index: drivername /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 573
+ERROR - 2019-03-22 22:59:31 --> Severity: Notice --> Undefined index: drivername /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 573
+ERROR - 2019-03-22 23:00:09 --> Severity: Notice --> Undefined index: drivername /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 573
+ERROR - 2019-03-22 23:00:20 --> Severity: Notice --> Undefined index: drivername /home/secuamuz/mcflydelivery.com/mcflybackend/application/controllers/Api.php 573

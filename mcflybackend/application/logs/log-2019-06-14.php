@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-06-14 20:49:34 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-06-14 20:49:35 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-06-14 20:49:36 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-06-14 20:49:36 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-06-14 20:49:37 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
+ERROR - 2019-06-14 20:49:37 --> Severity: Warning --> Use of undefined constant KEY_RES_MESSAGE - assumed 'KEY_RES_MESSAGE' (this will throw an Error in a future version of PHP) /home/secuamuz/mcflydelivery.com/mcflybackend/application/models/Payments.php 737
